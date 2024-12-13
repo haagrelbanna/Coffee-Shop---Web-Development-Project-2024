@@ -648,162 +648,154 @@
   
   /* Responsive */
   @media (max-width: 1500px) {
-    html {
-      font-size: 55%;
-    }
+  html {
+    font-size: 55%;
   }
-  
-  @media (max-width: 1300px) {
-    html {
-      font-size: 50%;
-    }
-  }
-  
-  @media (max-width: 1100px) {
-    html {
-      font-size: 45%;
-    }
-    .menu-img-wrapper {
-      width: 18rem;
-      height: 20rem;
-    }
-  
-    .customers {
-      height: 120vh;
-    }
-  
-    .clients {
-      flex-direction: column;
-    }
-  
-    .client {
-      width: 100%;
-      height: 15rem;
-    }
-  
-    .client:nth-child(2) {
-      height: 15rem;
-    }
-  
-    .client:nth-child(4) {
-      height: 15rem;
-    }
-  
-    .contact-left {
-      display: none;
-    }
-  
-    .contact-right {
-      width: 100%;
-    }
-  
-    .input-group input,
-    textarea,
-    .contact-btn {
-      width: 40rem;
-    }
-  }
-  
-  @media (max-width: 900px) {
-    .landing-contact div span:nth-child(2) {
-      display: none;
-    }
+}
 
-    .menu {
-      height: 95vh;
-    }
-    .menu-right {
-      display: flex;
-    }
-  
-    .menu-left {
-      width: 100%;
-      text-align: center;
-      margin-right: 0;
-    }
-  
-    .menu-left p {
-      margin: 2rem auto 4rem auto;
-    }
-  
-    .customers {
-      height: 140vh;
-    }
-  
-    .customers-banner p {
-      width: 60rem;
-    }
-  
-    .client {
-      height: 18rem;
-    }
-  
-    .client:nth-child(2) {
-      height: 18rem;
-    }
-  
-    .client:nth-child(4) {
-      height: 18rem;
-    }
-  
-    .contact {
-      padding-top: 22px;
-      height: 80%;
-    }
-  
-    .input-group {
-      flex-direction: column;
-    }
-  
-    .input-group input,
-    textarea,
-    .contact-btn {
-      width: 60rem;
-    }
+@media (max-width: 1300px) {
+  html {
+    font-size: 50%;
   }
-  
-  @media (max-width: 600px) {
-    html {
-      font-size: 35%;
-    }
-  
-    .landing-contact {
-      padding-top: 22px;
-      padding-left: 22px;
-      height: 25rem;
-      flex-direction: column;
-      align-items: center;
-    }
-    .details div {
-      width: 20rem;
-    }
-  
-    .about {
-      height: 80vh;
-      flex-direction: column;
-    }
-  
-    .about div {
-      width: 60rem;
-      margin: 0 2rem;
-    }
-  
-    .customers {
-      height: 90vh;
-    }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 45%;
   }
-  
-  @media (max-width: 450px) {
-    .logo {
-      display: none;
-    }
-  
-   
-    .input-group input,
-    textarea,
-    .contact-btn {
-      width: 50rem;
-    }
+  .menu-img-wrapper {
+    width: 18rem;
+    height: 18rem;
   }
-  
-  /* End of Responsive */
+
+  .customers {
+    height: 120vh;
+  }
+
+  .clients {
+    flex-direction: column;
+  }
+
+  .client {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .client:nth-child(2) {
+    height: 15rem;
+  }
+
+  .client:nth-child(4) {
+    height: 15rem;
+  }
+
+  .contact-left {
+    display: none;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .input-group input,
+  textarea,
+  .contact-btn {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .landing-contact div span:nth-child(2) {
+    display: none;
+  }
+  .menu-right {
+    display: none;
+  }
+
+  .menu-left {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .menu-left p {
+    margin: 2rem auto 4rem auto;
+  }
+
+  .customers {
+    height: 140vh;
+  }
+
+  .customers-banner p {
+    width: 60rem;
+  }
+
+  .client {
+    height: 18rem;
+  }
+
+  .client:nth-child(2) {
+    height: 18rem;
+  }
+
+  .client:nth-child(4) {
+    height: 18rem;
+  }
+
+  .contact {
+    height: 80%;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input,
+  textarea,
+  .contact-btn {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 35%;
+  }
+
+  .landing-contact {
+    height: 19rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .details div {
+    width: 20rem;
+  }
+
+  .about {
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .about div {
+    width: 60rem;
+    margin: 0 2rem;
+  }
+
+  .customers {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    display: none;
+  }
+
+  .input-group input,
+  textarea,
+  .contact-btn {
+    width: 50rem;
+  }
+}
+
+/* End of Responsive */
